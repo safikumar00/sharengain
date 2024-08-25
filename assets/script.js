@@ -153,7 +153,7 @@ function otpclose() {
   otpcon.classList.replace("d-flex", "d-none");
   body.classList.remove("overflow-h");
   offercard.forEach(function (lock) {
-    lock.classList.add("lock");
+    lock.classList.remove("lock");
   });
 }
 
